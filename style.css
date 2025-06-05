@@ -16,12 +16,17 @@ body {
 }
 .img-card {
     position: absolute;
-    background: rgba(26, 26, 26, 0.5);
+    background: rgba(26, 26, 26, 0.6);
     width: 660px;
-    top: 8rem;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 14rem;
 }
 .img-card img {
     height: 140px;
+    margin-right: 20px;
 }
 .img-card p {
     font-size: 8rem;
