@@ -52,3 +52,11 @@ a {
 .main-content {
     display: inline-block;
 }
+.headers {
+    max-width: 800px;
+    margin: 8rem 4rem;
+    background-color: #F9FAFB;
+}
+.headers h2 {
+    font-weight: 500;
+}
