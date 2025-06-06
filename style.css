@@ -20,18 +20,18 @@ body {
     position: absolute;
     background: rgba(26, 26, 26, 0.6);
     width: 660px;
-    height: 180px;
+    height: 140px;
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 14rem;
+    top: 12rem;
 }
 .img-card img {
-    height: 140px;
+    height: 100px;
     margin-right: 20px;
 }
 .img-card p {
-    font-size: 8rem;
+    font-size: 7rem;
     display: inline;
     vertical-align: middle;
     color: white;
