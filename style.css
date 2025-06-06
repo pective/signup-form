@@ -46,7 +46,7 @@ body {
     color: white;
     align-content: center;
 }
-a {
+.img-credits a {
     color: white;
 }
 .main-content {
@@ -89,4 +89,23 @@ input {
 }
 input[type="password"]:invalid {
     border: 1px solid red;
+}
+.bottom-card {
+    padding-left: 5rem;
+    max-width: 100%;
+    margin-top: 4px;
+    background-color: #F9FAFB;
+}
+button[type="submit"] {
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin-top: 2.2rem;
+    width: 220px;
+    height: 45px;
+    border: none;
+    background-color: #B66029;
+    color: white;
+}
+.bottom-card a {
+    color: #B66029;
 }
