@@ -53,10 +53,40 @@ a {
     display: inline-block;
 }
 .headers {
-    max-width: 800px;
-    margin: 8rem 4rem;
+    max-width: 100%;
+    padding: 5rem 4rem 2rem;
     background-color: #F9FAFB;
 }
 .headers h2 {
     font-weight: 500;
+}
+form {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.form {
+    padding-right: 300px;
+    box-shadow: 0px 5px 5px -4px #444444;;
+}
+.form h2 {
+    margin-left: 65px;
+}
+fieldset {
+    width: 200px;
+    margin: 15px;
+    border: none;
+}
+legend {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+input {
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+    height: 30px;
+}
+input[type="password"]:invalid {
+    border: 1px solid red;
 }
